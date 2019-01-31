@@ -6,6 +6,7 @@ int[] wip;
 int gen = 0;
 int square = 1;
 
+
 void setup() {
   size(800, 600);
   background(255);
@@ -15,14 +16,14 @@ void setup() {
   cells[cells.length / 2] = 1;
   wip = new int[cells.length];
   
-  rules.put("000", 0);
-  rules.put("001", 1);
-  rules.put("010", 0);
-  rules.put("011", 1);
-  rules.put("100", 1);
-  rules.put("101", 0);
-  rules.put("110", 1);
   rules.put("111", 0);
+  rules.put("110", 0);
+  rules.put("101", 0);
+  rules.put("100", 1);
+  rules.put("011", 1);
+  rules.put("010", 1);
+  rules.put("001", 1);
+  rules.put("000", 0);
 }
 
 
