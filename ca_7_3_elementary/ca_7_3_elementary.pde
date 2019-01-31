@@ -27,8 +27,10 @@ void setup() {
 
 
 void update() {
-  if (gen*square > height)
+  if (gen*square > height) {
+    gen = 0;
     return;
+  }
     
   for (int i = 1; i < cells.length-1; i++) {
     int left = cells[i-1]; 
