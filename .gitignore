@@ -10,3 +10,5 @@ libraries/**/*
 modes/**/*
 templates/**/*
 tools/**/*
+other/**/*
+external/**/*
